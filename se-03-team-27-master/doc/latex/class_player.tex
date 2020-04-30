@@ -1,0 +1,431 @@
+\hypertarget{class_player}{}\doxysection{Player Class Reference}
+\label{class_player}\index{Player@{Player}}
+
+
+The \mbox{\hyperlink{class_player}{Player}} class.  
+
+
+
+
+{\ttfamily \#include $<$player.\+h$>$}
+
+Inheritance diagram for Player\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_player}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_player_a44d67418e9628bcebb094cb08d2b8645}{order}} (int number\+Of\+Beers, \mbox{\hyperlink{class_player}{Player}} \&from)
+\begin{DoxyCompactList}\small\item\em Method for. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_player_a99b3fcf7fa83e14419716b090892d6c8}{ship}} (int number\+Of\+Beers, \mbox{\hyperlink{class_player}{Player}} \&to)
+\begin{DoxyCompactList}\small\item\em Method for. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_player_ae2197d1061a24fa444129b5ea85996d5}{decrease\+Inventory}} (int number\+Of\+Beers)
+\begin{DoxyCompactList}\small\item\em Method for. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_player_af67e6ee0de38f3e9635d35849f103449}{increase\+Inventory}} (int number\+Of\+Beers)
+\begin{DoxyCompactList}\small\item\em Method for. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_player_ae1a59b99f054470c0e2fde589a29a559}{receive\+Shipment}} (int number\+Of\+Beers)
+\begin{DoxyCompactList}\small\item\em Method for. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_player_aec4626d021f2729c52306e7d303ddcff}{get\+P\+Id}} () const
+\begin{DoxyCompactList}\small\item\em Implementation of getters and setter for this class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_player_a016beea94a91d74bc04d29088228316b}{set\+P\+Id}} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_player_af78ce362224fb94149c6cf84dd34f9ea}{get\+Role}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_player_a008b3feee7ca705d7637cc3fbe5d7c58}{set\+Role}} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_player_ade2a771c2e4a42560dae2acf2041ba8b}{get\+Demand}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_player_ad8d2808aaf6a627451a1d82f26d45812}{set\+Demand}} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_player_adc3ce54167bba061e37f6cd978970453}{get\+Order\+Placed}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_player_ae108f41aadc23f784ac488e4eafdfb80}{set\+Order\+Placed}} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_player_ac0da2a656e267a7f06be30c9e99d26e6}{get\+Inventory}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_player_a26403ca486d7a34a5a27397eee42d531}{set\+Inventory}} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_player_a538ba7ec623afd550c37783c10957c3d}{get\+Backorder}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_player_a131897406c5504012015860b5de606f0}{set\+Backorder}} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_player_a38cf576aa5a4020ed2fafe1aa9046fdd}{get\+Cost}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_player_a2fd1430d641ef17c52b0aae31e7e26bf}{set\+Cost}} (double value)
+\begin{DoxyCompactList}\small\item\em Setter Method for. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{class_player_ab11619a4c3918e46d3e22c67b653aabc}{p\+Id}}
+\begin{DoxyCompactList}\small\item\em The player id. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_player_a1c86133495d194a2842874c5c0dca3f1}{role}}
+\begin{DoxyCompactList}\small\item\em The player\textquotesingle{}s role. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_player_a05700cf5719381fe469fec84fc6388db}{demand}}
+\begin{DoxyCompactList}\small\item\em Amount of beers in demand. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_player_a1a1e49a4f9e2f7601f64a87176f67c11}{order\+Placed}}
+\begin{DoxyCompactList}\small\item\em Amount of beers in odered. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_player_ae8079599bfe82e07d955154fab9b6c18}{inventory}}
+\begin{DoxyCompactList}\small\item\em Amount of beers in current inventory. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_player_aa5df756588a3873af9918787ded02d84}{backorder}}
+\begin{DoxyCompactList}\small\item\em Amount of beers in current inventory. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_player_a7477b3893f2805a36042e96b4aeb2151}{cost}}
+\begin{DoxyCompactList}\small\item\em Cost of the beers. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_player}{Player}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_player_ae2197d1061a24fa444129b5ea85996d5}\label{class_player_ae2197d1061a24fa444129b5ea85996d5}} 
+\index{Player@{Player}!decreaseInventory@{decreaseInventory}}
+\index{decreaseInventory@{decreaseInventory}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{decreaseInventory()}{decreaseInventory()}}
+{\footnotesize\ttfamily int Player\+::decrease\+Inventory (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Beers }\end{DoxyParamCaption})}
+
+
+
+Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_a538ba7ec623afd550c37783c10957c3d}\label{class_player_a538ba7ec623afd550c37783c10957c3d}} 
+\index{Player@{Player}!getBackorder@{getBackorder}}
+\index{getBackorder@{getBackorder}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{getBackorder()}{getBackorder()}}
+{\footnotesize\ttfamily unsigned int Player\+::get\+Backorder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_player_a38cf576aa5a4020ed2fafe1aa9046fdd}\label{class_player_a38cf576aa5a4020ed2fafe1aa9046fdd}} 
+\index{Player@{Player}!getCost@{getCost}}
+\index{getCost@{getCost}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{getCost()}{getCost()}}
+{\footnotesize\ttfamily double Player\+::get\+Cost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_player_ade2a771c2e4a42560dae2acf2041ba8b}\label{class_player_ade2a771c2e4a42560dae2acf2041ba8b}} 
+\index{Player@{Player}!getDemand@{getDemand}}
+\index{getDemand@{getDemand}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{getDemand()}{getDemand()}}
+{\footnotesize\ttfamily unsigned int Player\+::get\+Demand (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_player_ac0da2a656e267a7f06be30c9e99d26e6}\label{class_player_ac0da2a656e267a7f06be30c9e99d26e6}} 
+\index{Player@{Player}!getInventory@{getInventory}}
+\index{getInventory@{getInventory}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{getInventory()}{getInventory()}}
+{\footnotesize\ttfamily unsigned int Player\+::get\+Inventory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_player_adc3ce54167bba061e37f6cd978970453}\label{class_player_adc3ce54167bba061e37f6cd978970453}} 
+\index{Player@{Player}!getOrderPlaced@{getOrderPlaced}}
+\index{getOrderPlaced@{getOrderPlaced}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{getOrderPlaced()}{getOrderPlaced()}}
+{\footnotesize\ttfamily unsigned int Player\+::get\+Order\+Placed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_player_aec4626d021f2729c52306e7d303ddcff}\label{class_player_aec4626d021f2729c52306e7d303ddcff}} 
+\index{Player@{Player}!getPId@{getPId}}
+\index{getPId@{getPId}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{getPId()}{getPId()}}
+{\footnotesize\ttfamily unsigned int Player\+::get\+P\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Implementation of getters and setter for this class. 
+
+Getter Method for \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_player_af78ce362224fb94149c6cf84dd34f9ea}\label{class_player_af78ce362224fb94149c6cf84dd34f9ea}} 
+\index{Player@{Player}!getRole@{getRole}}
+\index{getRole@{getRole}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{getRole()}{getRole()}}
+{\footnotesize\ttfamily unsigned int Player\+::get\+Role (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_player_af67e6ee0de38f3e9635d35849f103449}\label{class_player_af67e6ee0de38f3e9635d35849f103449}} 
+\index{Player@{Player}!increaseInventory@{increaseInventory}}
+\index{increaseInventory@{increaseInventory}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{increaseInventory()}{increaseInventory()}}
+{\footnotesize\ttfamily int Player\+::increase\+Inventory (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Beers }\end{DoxyParamCaption})}
+
+
+
+Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_a44d67418e9628bcebb094cb08d2b8645}\label{class_player_a44d67418e9628bcebb094cb08d2b8645}} 
+\index{Player@{Player}!order@{order}}
+\index{order@{order}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{order()}{order()}}
+{\footnotesize\ttfamily void Player\+::order (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Beers,  }\item[{\mbox{\hyperlink{class_player}{Player}} \&}]{from }\end{DoxyParamCaption})}
+
+
+
+Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_ae1a59b99f054470c0e2fde589a29a559}\label{class_player_ae1a59b99f054470c0e2fde589a29a559}} 
+\index{Player@{Player}!receiveShipment@{receiveShipment}}
+\index{receiveShipment@{receiveShipment}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{receiveShipment()}{receiveShipment()}}
+{\footnotesize\ttfamily void Player\+::receive\+Shipment (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Beers }\end{DoxyParamCaption})}
+
+
+
+Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_a131897406c5504012015860b5de606f0}\label{class_player_a131897406c5504012015860b5de606f0}} 
+\index{Player@{Player}!setBackorder@{setBackorder}}
+\index{setBackorder@{setBackorder}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{setBackorder()}{setBackorder()}}
+{\footnotesize\ttfamily void Player\+::set\+Backorder (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_a2fd1430d641ef17c52b0aae31e7e26bf}\label{class_player_a2fd1430d641ef17c52b0aae31e7e26bf}} 
+\index{Player@{Player}!setCost@{setCost}}
+\index{setCost@{setCost}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{setCost()}{setCost()}}
+{\footnotesize\ttfamily void Player\+::set\+Cost (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_ad8d2808aaf6a627451a1d82f26d45812}\label{class_player_ad8d2808aaf6a627451a1d82f26d45812}} 
+\index{Player@{Player}!setDemand@{setDemand}}
+\index{setDemand@{setDemand}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{setDemand()}{setDemand()}}
+{\footnotesize\ttfamily void Player\+::set\+Demand (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_a26403ca486d7a34a5a27397eee42d531}\label{class_player_a26403ca486d7a34a5a27397eee42d531}} 
+\index{Player@{Player}!setInventory@{setInventory}}
+\index{setInventory@{setInventory}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{setInventory()}{setInventory()}}
+{\footnotesize\ttfamily void Player\+::set\+Inventory (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_ae108f41aadc23f784ac488e4eafdfb80}\label{class_player_ae108f41aadc23f784ac488e4eafdfb80}} 
+\index{Player@{Player}!setOrderPlaced@{setOrderPlaced}}
+\index{setOrderPlaced@{setOrderPlaced}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{setOrderPlaced()}{setOrderPlaced()}}
+{\footnotesize\ttfamily void Player\+::set\+Order\+Placed (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_a016beea94a91d74bc04d29088228316b}\label{class_player_a016beea94a91d74bc04d29088228316b}} 
+\index{Player@{Player}!setPId@{setPId}}
+\index{setPId@{setPId}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{setPId()}{setPId()}}
+{\footnotesize\ttfamily void Player\+::set\+P\+Id (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_a008b3feee7ca705d7637cc3fbe5d7c58}\label{class_player_a008b3feee7ca705d7637cc3fbe5d7c58}} 
+\index{Player@{Player}!setRole@{setRole}}
+\index{setRole@{setRole}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{setRole()}{setRole()}}
+{\footnotesize\ttfamily void Player\+::set\+Role (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_a99b3fcf7fa83e14419716b090892d6c8}\label{class_player_a99b3fcf7fa83e14419716b090892d6c8}} 
+\index{Player@{Player}!ship@{ship}}
+\index{ship@{ship}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{ship()}{ship()}}
+{\footnotesize\ttfamily void Player\+::ship (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Beers,  }\item[{\mbox{\hyperlink{class_player}{Player}} \&}]{to }\end{DoxyParamCaption})}
+
+
+
+Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_player_aa5df756588a3873af9918787ded02d84}\label{class_player_aa5df756588a3873af9918787ded02d84}} 
+\index{Player@{Player}!backorder@{backorder}}
+\index{backorder@{backorder}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{backorder}{backorder}}
+{\footnotesize\ttfamily unsigned int Player\+::backorder\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Amount of beers in current inventory. 
+
+\mbox{\Hypertarget{class_player_a7477b3893f2805a36042e96b4aeb2151}\label{class_player_a7477b3893f2805a36042e96b4aeb2151}} 
+\index{Player@{Player}!cost@{cost}}
+\index{cost@{cost}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{cost}{cost}}
+{\footnotesize\ttfamily double Player\+::cost\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Cost of the beers. 
+
+\mbox{\Hypertarget{class_player_a05700cf5719381fe469fec84fc6388db}\label{class_player_a05700cf5719381fe469fec84fc6388db}} 
+\index{Player@{Player}!demand@{demand}}
+\index{demand@{demand}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{demand}{demand}}
+{\footnotesize\ttfamily unsigned int Player\+::demand\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Amount of beers in demand. 
+
+\mbox{\Hypertarget{class_player_ae8079599bfe82e07d955154fab9b6c18}\label{class_player_ae8079599bfe82e07d955154fab9b6c18}} 
+\index{Player@{Player}!inventory@{inventory}}
+\index{inventory@{inventory}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{inventory}{inventory}}
+{\footnotesize\ttfamily unsigned int Player\+::inventory\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Amount of beers in current inventory. 
+
+\mbox{\Hypertarget{class_player_a1a1e49a4f9e2f7601f64a87176f67c11}\label{class_player_a1a1e49a4f9e2f7601f64a87176f67c11}} 
+\index{Player@{Player}!orderPlaced@{orderPlaced}}
+\index{orderPlaced@{orderPlaced}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{orderPlaced}{orderPlaced}}
+{\footnotesize\ttfamily unsigned int Player\+::order\+Placed\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Amount of beers in odered. 
+
+\mbox{\Hypertarget{class_player_ab11619a4c3918e46d3e22c67b653aabc}\label{class_player_ab11619a4c3918e46d3e22c67b653aabc}} 
+\index{Player@{Player}!pId@{pId}}
+\index{pId@{pId}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{pId}{pId}}
+{\footnotesize\ttfamily unsigned int Player\+::p\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The player id. 
+
+\mbox{\Hypertarget{class_player_a1c86133495d194a2842874c5c0dca3f1}\label{class_player_a1c86133495d194a2842874c5c0dca3f1}} 
+\index{Player@{Player}!role@{role}}
+\index{role@{role}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{role}{role}}
+{\footnotesize\ttfamily unsigned int Player\+::role\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The player\textquotesingle{}s role. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/diggy/sprint-\/1/src/\mbox{\hyperlink{player_8h}{player.\+h}}\item 
+/home/diggy/sprint-\/1/src/\mbox{\hyperlink{player_8cpp}{player.\+cpp}}\end{DoxyCompactItemize}

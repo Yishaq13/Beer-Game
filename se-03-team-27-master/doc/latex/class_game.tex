@@ -1,0 +1,952 @@
+\hypertarget{class_game}{}\doxysection{Game Class Reference}
+\label{class_game}\index{Game@{Game}}
+
+
+The \mbox{\hyperlink{class_game}{Game}} class.  
+
+
+
+
+{\ttfamily \#include $<$game.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_game_a069c50f4bbe76634fd3557c321249914}{execute\+Order\+For\+Current\+Week}} ()
+\begin{DoxyCompactList}\small\item\em Method for. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_ac586db141ef21c992a6474300bdea2d0}{update\+Player\+Inventories}} ()
+\begin{DoxyCompactList}\small\item\em Method for. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_a8471ea91ed18fc2d289eb23747d11d39}{advance\+Week}} ()
+\begin{DoxyCompactList}\small\item\em Method for. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a99a66c20eb01b96acb2ae6b7f52d27f7}{add\+Order}} (\mbox{\hyperlink{class_order}{Order}} \&order)
+\begin{DoxyCompactList}\small\item\em Method for. \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_game_affb350f8e20638c990861b913b86f67d}{generate\+Passwords}} ()
+\begin{DoxyCompactList}\small\item\em Method for. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_game_aa4a7ec996cff81f9b7b6e90103ff2a1a}{get\+G\+Id}} () const
+\begin{DoxyCompactList}\small\item\em Implementation of getters and setter for this class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_ab7b398c385cec5ea920d1b5053a1e707}{set\+G\+Id}} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for gid. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_game_acbda63cea0b23cda6e11c4384bf4a869}{get\+Instr\+Id}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for the \mbox{\hyperlink{class_instructor}{Instructor}} Id. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a6548484fe42f375e949b52c96a0bc348}{set\+Instr\+Id}} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for the value of \mbox{\hyperlink{class_instructor}{Instructor}} Id. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_game_a9e03bc7bd2beb1b5077db5905dbc8146}{get\+P\+Fact\+Id}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for factory player id. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a144ffe419003a0cb19001c46109a6bfe}{set\+P\+Fact\+Id}} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for \mbox{\hyperlink{class_factory}{Factory}} player id. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_game_a55ce7f3ec72183e839c3139db478e367}{get\+P\+Distributor\+Id}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for distributor player id. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_ab88440f7297899b9e534f314f5f49eaa}{set\+P\+Distributor\+Id}} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for Distributor player id. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_game_a8197219d0ce49f5ac76d1ed6890cfb3e}{get\+P\+Wholesaler\+Id}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for wholesaler player id. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_ae192d77627e937d9840f77126fc0b3b7}{set\+P\+Wholesaler\+Id}} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_game_a22a98a8e7701f22e9bf5c1c011724154}{get\+Retailer\+Id}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for retailer player id. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a676c213e382f1b539ac0a3fc56d8d744}{set\+Retailer\+Id}} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for retailer player id. \end{DoxyCompactList}\item 
+std\+::map$<$ int, std\+::vector$<$ int $>$ $>$ \mbox{\hyperlink{class_game_a51a986f3fea01056c9712160acb294a1}{get\+Orders\+To\+Be\+Executed}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for the orders to be executed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_acecfb7ceca2ca0dbe49ced7c97b09ece}{set\+Orders\+To\+Be\+Executed}} (const std\+::map$<$ int, std\+::vector$<$ int $>$$>$ \&value)
+\begin{DoxyCompactList}\small\item\em Setter Method for for the orders to be executed. \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{class_game_a36a8d7bd3b6599ba075606dfb4f1ba7c}{get\+Demand\+Per\+Week}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for demand per week. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a994341ee93b40427e061f15b222c1cd8}{set\+Demand\+Per\+Week}} (const std\+::vector$<$ int $>$ \&value)
+\begin{DoxyCompactList}\small\item\em Setter Method for demand per week. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_ac33e4608fc0971b4280ab16fb7dafde4}{get\+Order\+Time\+Delay}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for \mbox{\hyperlink{class_order}{Order}} time delay. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_aec65f7285232306e1bd6eedf06e1c309}{set\+Order\+Time\+Delay}} (int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for \mbox{\hyperlink{class_order}{Order}} time delay. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_game_a0842aaa236062f2a9dd7e9d32f0be131}{get\+Holding\+Cost}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for Holding Cost of a beer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a97c662972249ca268ecc387461820c8d}{set\+Holding\+Cost}} (double value)
+\begin{DoxyCompactList}\small\item\em Setter Method for Holding Cost of a beer. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_game_ac00135b6b5128aca74b09e9f79d54b60}{get\+Backorder\+Cost}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for Backorder Cost of a beer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a41007fd1eb3df7a5f56f442267d6dff0}{set\+Backorder\+Cost}} (double value)
+\begin{DoxyCompactList}\small\item\em Setter Method for Backorder Cost of a beer. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_aab794be46d7e7d8832ca6b5430cd61e2}{get\+Starting\+Inventory}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for Starting\+Inventory. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a5b75bc16fa3a510ef8e2e43a6e2294d2}{set\+Starting\+Inventory}} (int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for Starting Inventory. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_a3a9810e55fb1b4b5df6c887811c73885}{get\+Weeks\+To\+Be\+Played}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for Weeks To Be Played. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_ab4e0f6a606c804dd9d39a667ed356ee1}{set\+Weeks\+To\+Be\+Played}} (int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for Weeks To Be Played. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_aa4d5959a4edb54d944b93c83725229aa}{get\+Current\+Week}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for the current week. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a48333f5891fa3d7f7bd74a9757bab257}{set\+Current\+Week}} (int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for the current week. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_aafa386030ee084fe10699ec84316e689}{get\+Info\+Code}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for info code. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_a392ed0a6d14eaabb35507a08bd5cb527}{set\+Info\+Code}} (int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for info code. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_ab68ef87715311bea275bdac17342f2bd}{get\+Order\+Delay}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for \mbox{\hyperlink{class_order}{Order}} Delay of the game. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_ac7a3b5df537efe026c2010f95674b2dc}{set\+Order\+Delay}} (int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for \mbox{\hyperlink{class_order}{Order}} Delay of the game. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_ab25852cc4c2df47382d33cfe3c2b55d0}{get\+Shipment\+Delay}} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for Shipment Delay of the game. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_ae0d4d73857961a54af6d17b055598d11}{set\+Shipment\+Delay}} (int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for Shipment Delay of the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{class_game_af45025cef2a2fb2dcaf3e423a136b4ad}{g\+Id}}
+\begin{DoxyCompactList}\small\item\em The game id. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_game_a020ab63eaf21035db371d93f83139bc7}{instr\+Id}}
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s intructor\textquotesingle{}s id. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_game_a69dd96698aec85e2f3dab45efc3fdd1f}{p\+Fact\+Id}}
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s factory player id. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_game_ab3c5f93e7f133bc8e840a4e0ef6b2b8c}{p\+Distributor\+Id}}
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s distributor player id. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_game_a492a506043842fa0ea47c79128d839e7}{p\+Wholesaler\+Id}}
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s wholesaler player id. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_game_a31a8c3ae4c5ef70cede56d99a3f6352c}{p\+Retailer\+Id}}
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s retailer player id. \end{DoxyCompactList}\item 
+std\+::map$<$ int, std\+::vector$<$ int $>$ $>$ \mbox{\hyperlink{class_game_ad39ce6e3318558cf9c5bc5cb76c7815e}{orders\+To\+Be\+Executed}}
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s retailer player. \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{class_game_aea9436a9a1e01665fc10fed6e8273388}{demand\+Per\+Week}}
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s demand per week. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_a337c34aba5afe4984d5a76e2dfb8800e}{order\+Time\+Delay}} =2
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s time delay after order. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_game_a6cb7c7d62127e8378a0dda6793916efd}{holding\+Cost}} = 0.\+5
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s holding cost of beer. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_game_a413dfabbdffaf493bca059932fe09701}{backorder\+Cost}} = 1
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s back order cost of beer. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_a849887a8ac89f58beee80a0260f18475}{starting\+Inventory}} = 12
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s initial starting inventory. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_ab577818246babc5bbd94059d33553c70}{weeks\+To\+Be\+Played}} = 26
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s total weeks to be played. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_a271387bda026cec90a6bb370ce74278d}{current\+Week}} = 0
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s current progressing week. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_ac8a93c181fc5a54ca38ad59c9bff25a0}{info\+Code}} = 0
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s info code. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_afc75f56db8dd8f3ffe78d670eeea536d}{order\+Delay}}
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s order delay. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_game_ae7c8b91149db62d25ea552d71b053bde}{shipment\+Delay}}
+\begin{DoxyCompactList}\small\item\em The game\textquotesingle{}s shipment delay. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_game}{Game}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_a99a66c20eb01b96acb2ae6b7f52d27f7}\label{class_game_a99a66c20eb01b96acb2ae6b7f52d27f7}} 
+\index{Game@{Game}!addOrder@{addOrder}}
+\index{addOrder@{addOrder}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{addOrder()}{addOrder()}}
+{\footnotesize\ttfamily void Game\+::add\+Order (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_order}{Order}} \&}]{order }\end{DoxyParamCaption})}
+
+
+
+Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & ~\newline
+ \\
+\hline
+{\em value} & ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a8471ea91ed18fc2d289eb23747d11d39}\label{class_game_a8471ea91ed18fc2d289eb23747d11d39}} 
+\index{Game@{Game}!advanceWeek@{advanceWeek}}
+\index{advanceWeek@{advanceWeek}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{advanceWeek()}{advanceWeek()}}
+{\footnotesize\ttfamily int Game\+::advance\+Week (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & ~\newline
+ \\
+\hline
+{\em value} & ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a069c50f4bbe76634fd3557c321249914}\label{class_game_a069c50f4bbe76634fd3557c321249914}} 
+\index{Game@{Game}!executeOrderForCurrentWeek@{executeOrderForCurrentWeek}}
+\index{executeOrderForCurrentWeek@{executeOrderForCurrentWeek}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{executeOrderForCurrentWeek()}{executeOrderForCurrentWeek()}}
+{\footnotesize\ttfamily void Game\+::execute\+Order\+For\+Current\+Week (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & ~\newline
+ \\
+\hline
+{\em value} & ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_affb350f8e20638c990861b913b86f67d}\label{class_game_affb350f8e20638c990861b913b86f67d}} 
+\index{Game@{Game}!generatePasswords@{generatePasswords}}
+\index{generatePasswords@{generatePasswords}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{generatePasswords()}{generatePasswords()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ Game\+::generate\+Passwords (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & ~\newline
+ \\
+\hline
+{\em value} & ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_ac00135b6b5128aca74b09e9f79d54b60}\label{class_game_ac00135b6b5128aca74b09e9f79d54b60}} 
+\index{Game@{Game}!getBackorderCost@{getBackorderCost}}
+\index{getBackorderCost@{getBackorderCost}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getBackorderCost()}{getBackorderCost()}}
+{\footnotesize\ttfamily double Game\+::get\+Backorder\+Cost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for Backorder Cost of a beer. 
+
+\begin{DoxyReturn}{Returns}
+Backorder Cost of a beer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_aa4d5959a4edb54d944b93c83725229aa}\label{class_game_aa4d5959a4edb54d944b93c83725229aa}} 
+\index{Game@{Game}!getCurrentWeek@{getCurrentWeek}}
+\index{getCurrentWeek@{getCurrentWeek}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getCurrentWeek()}{getCurrentWeek()}}
+{\footnotesize\ttfamily int Game\+::get\+Current\+Week (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for the current week. 
+
+\begin{DoxyReturn}{Returns}
+The games current week 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a36a8d7bd3b6599ba075606dfb4f1ba7c}\label{class_game_a36a8d7bd3b6599ba075606dfb4f1ba7c}} 
+\index{Game@{Game}!getDemandPerWeek@{getDemandPerWeek}}
+\index{getDemandPerWeek@{getDemandPerWeek}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getDemandPerWeek()}{getDemandPerWeek()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ Game\+::get\+Demand\+Per\+Week (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for demand per week. 
+
+\begin{DoxyReturn}{Returns}
+The vector of demand per week 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_aa4a7ec996cff81f9b7b6e90103ff2a1a}\label{class_game_aa4a7ec996cff81f9b7b6e90103ff2a1a}} 
+\index{Game@{Game}!getGId@{getGId}}
+\index{getGId@{getGId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getGId()}{getGId()}}
+{\footnotesize\ttfamily unsigned int Game\+::get\+G\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Implementation of getters and setter for this class. 
+
+Getter Method for gid \begin{DoxyReturn}{Returns}
+gid 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a0842aaa236062f2a9dd7e9d32f0be131}\label{class_game_a0842aaa236062f2a9dd7e9d32f0be131}} 
+\index{Game@{Game}!getHoldingCost@{getHoldingCost}}
+\index{getHoldingCost@{getHoldingCost}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getHoldingCost()}{getHoldingCost()}}
+{\footnotesize\ttfamily double Game\+::get\+Holding\+Cost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for Holding Cost of a beer. 
+
+\begin{DoxyReturn}{Returns}
+Holding Cost of a beer 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_aafa386030ee084fe10699ec84316e689}\label{class_game_aafa386030ee084fe10699ec84316e689}} 
+\index{Game@{Game}!getInfoCode@{getInfoCode}}
+\index{getInfoCode@{getInfoCode}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getInfoCode()}{getInfoCode()}}
+{\footnotesize\ttfamily int Game\+::get\+Info\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for info code. 
+
+\begin{DoxyReturn}{Returns}
+info code 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_acbda63cea0b23cda6e11c4384bf4a869}\label{class_game_acbda63cea0b23cda6e11c4384bf4a869}} 
+\index{Game@{Game}!getInstrId@{getInstrId}}
+\index{getInstrId@{getInstrId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getInstrId()}{getInstrId()}}
+{\footnotesize\ttfamily unsigned int Game\+::get\+Instr\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for the \mbox{\hyperlink{class_instructor}{Instructor}} Id. 
+
+\begin{DoxyReturn}{Returns}
+The value of \mbox{\hyperlink{class_instructor}{Instructor}} Id 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_ab68ef87715311bea275bdac17342f2bd}\label{class_game_ab68ef87715311bea275bdac17342f2bd}} 
+\index{Game@{Game}!getOrderDelay@{getOrderDelay}}
+\index{getOrderDelay@{getOrderDelay}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getOrderDelay()}{getOrderDelay()}}
+{\footnotesize\ttfamily int Game\+::get\+Order\+Delay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for \mbox{\hyperlink{class_order}{Order}} Delay of the game. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_order}{Order}} Delay of the game 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a51a986f3fea01056c9712160acb294a1}\label{class_game_a51a986f3fea01056c9712160acb294a1}} 
+\index{Game@{Game}!getOrdersToBeExecuted@{getOrdersToBeExecuted}}
+\index{getOrdersToBeExecuted@{getOrdersToBeExecuted}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getOrdersToBeExecuted()}{getOrdersToBeExecuted()}}
+{\footnotesize\ttfamily std\+::map$<$ int, std\+::vector$<$ int $>$ $>$ Game\+::get\+Orders\+To\+Be\+Executed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for the orders to be executed. 
+
+\begin{DoxyReturn}{Returns}
+The map of orders to be executed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_ac33e4608fc0971b4280ab16fb7dafde4}\label{class_game_ac33e4608fc0971b4280ab16fb7dafde4}} 
+\index{Game@{Game}!getOrderTimeDelay@{getOrderTimeDelay}}
+\index{getOrderTimeDelay@{getOrderTimeDelay}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getOrderTimeDelay()}{getOrderTimeDelay()}}
+{\footnotesize\ttfamily int Game\+::get\+Order\+Time\+Delay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for \mbox{\hyperlink{class_order}{Order}} time delay. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_order}{Order}} time delay 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a55ce7f3ec72183e839c3139db478e367}\label{class_game_a55ce7f3ec72183e839c3139db478e367}} 
+\index{Game@{Game}!getPDistributorId@{getPDistributorId}}
+\index{getPDistributorId@{getPDistributorId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getPDistributorId()}{getPDistributorId()}}
+{\footnotesize\ttfamily unsigned int Game\+::get\+P\+Distributor\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for distributor player id. 
+
+\begin{DoxyReturn}{Returns}
+Distributor player id 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a9e03bc7bd2beb1b5077db5905dbc8146}\label{class_game_a9e03bc7bd2beb1b5077db5905dbc8146}} 
+\index{Game@{Game}!getPFactId@{getPFactId}}
+\index{getPFactId@{getPFactId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getPFactId()}{getPFactId()}}
+{\footnotesize\ttfamily unsigned int Game\+::get\+P\+Fact\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for factory player id. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_factory}{Factory}} player id 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a8197219d0ce49f5ac76d1ed6890cfb3e}\label{class_game_a8197219d0ce49f5ac76d1ed6890cfb3e}} 
+\index{Game@{Game}!getPWholesalerId@{getPWholesalerId}}
+\index{getPWholesalerId@{getPWholesalerId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getPWholesalerId()}{getPWholesalerId()}}
+{\footnotesize\ttfamily unsigned int Game\+::get\+P\+Wholesaler\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for wholesaler player id. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a22a98a8e7701f22e9bf5c1c011724154}\label{class_game_a22a98a8e7701f22e9bf5c1c011724154}} 
+\index{Game@{Game}!getRetailerId@{getRetailerId}}
+\index{getRetailerId@{getRetailerId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getRetailerId()}{getRetailerId()}}
+{\footnotesize\ttfamily unsigned int Game\+::get\+Retailer\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for retailer player id. 
+
+\begin{DoxyReturn}{Returns}
+Retailer player id 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_ab25852cc4c2df47382d33cfe3c2b55d0}\label{class_game_ab25852cc4c2df47382d33cfe3c2b55d0}} 
+\index{Game@{Game}!getShipmentDelay@{getShipmentDelay}}
+\index{getShipmentDelay@{getShipmentDelay}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getShipmentDelay()}{getShipmentDelay()}}
+{\footnotesize\ttfamily int Game\+::get\+Shipment\+Delay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for Shipment Delay of the game. 
+
+\begin{DoxyReturn}{Returns}
+Shipment Delay of the game 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_aab794be46d7e7d8832ca6b5430cd61e2}\label{class_game_aab794be46d7e7d8832ca6b5430cd61e2}} 
+\index{Game@{Game}!getStartingInventory@{getStartingInventory}}
+\index{getStartingInventory@{getStartingInventory}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getStartingInventory()}{getStartingInventory()}}
+{\footnotesize\ttfamily int Game\+::get\+Starting\+Inventory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for Starting\+Inventory. 
+
+\begin{DoxyReturn}{Returns}
+The initial Starting Inventory 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a3a9810e55fb1b4b5df6c887811c73885}\label{class_game_a3a9810e55fb1b4b5df6c887811c73885}} 
+\index{Game@{Game}!getWeeksToBePlayed@{getWeeksToBePlayed}}
+\index{getWeeksToBePlayed@{getWeeksToBePlayed}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{getWeeksToBePlayed()}{getWeeksToBePlayed()}}
+{\footnotesize\ttfamily int Game\+::get\+Weeks\+To\+Be\+Played (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for Weeks To Be Played. 
+
+\begin{DoxyReturn}{Returns}
+Weeks To Be Played 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a41007fd1eb3df7a5f56f442267d6dff0}\label{class_game_a41007fd1eb3df7a5f56f442267d6dff0}} 
+\index{Game@{Game}!setBackorderCost@{setBackorderCost}}
+\index{setBackorderCost@{setBackorderCost}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setBackorderCost()}{setBackorderCost()}}
+{\footnotesize\ttfamily void Game\+::set\+Backorder\+Cost (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for Backorder Cost of a beer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Backorder Cost of a beer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a48333f5891fa3d7f7bd74a9757bab257}\label{class_game_a48333f5891fa3d7f7bd74a9757bab257}} 
+\index{Game@{Game}!setCurrentWeek@{setCurrentWeek}}
+\index{setCurrentWeek@{setCurrentWeek}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setCurrentWeek()}{setCurrentWeek()}}
+{\footnotesize\ttfamily void Game\+::set\+Current\+Week (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for the current week. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the current week \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a994341ee93b40427e061f15b222c1cd8}\label{class_game_a994341ee93b40427e061f15b222c1cd8}} 
+\index{Game@{Game}!setDemandPerWeek@{setDemandPerWeek}}
+\index{setDemandPerWeek@{setDemandPerWeek}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setDemandPerWeek()}{setDemandPerWeek()}}
+{\footnotesize\ttfamily void Game\+::set\+Demand\+Per\+Week (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ int $>$ \&}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for demand per week. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Vector of demand per week \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_ab7b398c385cec5ea920d1b5053a1e707}\label{class_game_ab7b398c385cec5ea920d1b5053a1e707}} 
+\index{Game@{Game}!setGId@{setGId}}
+\index{setGId@{setGId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setGId()}{setGId()}}
+{\footnotesize\ttfamily void Game\+::set\+G\+Id (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for gid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The value for gid \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a97c662972249ca268ecc387461820c8d}\label{class_game_a97c662972249ca268ecc387461820c8d}} 
+\index{Game@{Game}!setHoldingCost@{setHoldingCost}}
+\index{setHoldingCost@{setHoldingCost}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setHoldingCost()}{setHoldingCost()}}
+{\footnotesize\ttfamily void Game\+::set\+Holding\+Cost (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for Holding Cost of a beer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Holding Cost of a beer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a392ed0a6d14eaabb35507a08bd5cb527}\label{class_game_a392ed0a6d14eaabb35507a08bd5cb527}} 
+\index{Game@{Game}!setInfoCode@{setInfoCode}}
+\index{setInfoCode@{setInfoCode}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setInfoCode()}{setInfoCode()}}
+{\footnotesize\ttfamily void Game\+::set\+Info\+Code (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for info code. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Info code \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a6548484fe42f375e949b52c96a0bc348}\label{class_game_a6548484fe42f375e949b52c96a0bc348}} 
+\index{Game@{Game}!setInstrId@{setInstrId}}
+\index{setInstrId@{setInstrId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setInstrId()}{setInstrId()}}
+{\footnotesize\ttfamily void Game\+::set\+Instr\+Id (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for the value of \mbox{\hyperlink{class_instructor}{Instructor}} Id. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The value for \mbox{\hyperlink{class_instructor}{Instructor}} Id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_ac7a3b5df537efe026c2010f95674b2dc}\label{class_game_ac7a3b5df537efe026c2010f95674b2dc}} 
+\index{Game@{Game}!setOrderDelay@{setOrderDelay}}
+\index{setOrderDelay@{setOrderDelay}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setOrderDelay()}{setOrderDelay()}}
+{\footnotesize\ttfamily void Game\+::set\+Order\+Delay (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for \mbox{\hyperlink{class_order}{Order}} Delay of the game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \mbox{\hyperlink{class_order}{Order}} Delay of the game \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_acecfb7ceca2ca0dbe49ced7c97b09ece}\label{class_game_acecfb7ceca2ca0dbe49ced7c97b09ece}} 
+\index{Game@{Game}!setOrdersToBeExecuted@{setOrdersToBeExecuted}}
+\index{setOrdersToBeExecuted@{setOrdersToBeExecuted}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setOrdersToBeExecuted()}{setOrdersToBeExecuted()}}
+{\footnotesize\ttfamily void Game\+::set\+Orders\+To\+Be\+Executed (\begin{DoxyParamCaption}\item[{const std\+::map$<$ int, std\+::vector$<$ int $>$$>$ \&}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for for the orders to be executed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Map of the orders to be executed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_aec65f7285232306e1bd6eedf06e1c309}\label{class_game_aec65f7285232306e1bd6eedf06e1c309}} 
+\index{Game@{Game}!setOrderTimeDelay@{setOrderTimeDelay}}
+\index{setOrderTimeDelay@{setOrderTimeDelay}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setOrderTimeDelay()}{setOrderTimeDelay()}}
+{\footnotesize\ttfamily void Game\+::set\+Order\+Time\+Delay (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for \mbox{\hyperlink{class_order}{Order}} time delay. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \mbox{\hyperlink{class_order}{Order}} time delay \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_ab88440f7297899b9e534f314f5f49eaa}\label{class_game_ab88440f7297899b9e534f314f5f49eaa}} 
+\index{Game@{Game}!setPDistributorId@{setPDistributorId}}
+\index{setPDistributorId@{setPDistributorId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setPDistributorId()}{setPDistributorId()}}
+{\footnotesize\ttfamily void Game\+::set\+P\+Distributor\+Id (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for Distributor player id. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Distributor player id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a144ffe419003a0cb19001c46109a6bfe}\label{class_game_a144ffe419003a0cb19001c46109a6bfe}} 
+\index{Game@{Game}!setPFactId@{setPFactId}}
+\index{setPFactId@{setPFactId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setPFactId()}{setPFactId()}}
+{\footnotesize\ttfamily void Game\+::set\+P\+Fact\+Id (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for \mbox{\hyperlink{class_factory}{Factory}} player id. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & \mbox{\hyperlink{class_factory}{Factory}} player id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_ae192d77627e937d9840f77126fc0b3b7}\label{class_game_ae192d77627e937d9840f77126fc0b3b7}} 
+\index{Game@{Game}!setPWholesalerId@{setPWholesalerId}}
+\index{setPWholesalerId@{setPWholesalerId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setPWholesalerId()}{setPWholesalerId()}}
+{\footnotesize\ttfamily void Game\+::set\+P\+Wholesaler\+Id (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a676c213e382f1b539ac0a3fc56d8d744}\label{class_game_a676c213e382f1b539ac0a3fc56d8d744}} 
+\index{Game@{Game}!setRetailerId@{setRetailerId}}
+\index{setRetailerId@{setRetailerId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setRetailerId()}{setRetailerId()}}
+{\footnotesize\ttfamily void Game\+::set\+Retailer\+Id (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for retailer player id. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Retailer player id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_ae0d4d73857961a54af6d17b055598d11}\label{class_game_ae0d4d73857961a54af6d17b055598d11}} 
+\index{Game@{Game}!setShipmentDelay@{setShipmentDelay}}
+\index{setShipmentDelay@{setShipmentDelay}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setShipmentDelay()}{setShipmentDelay()}}
+{\footnotesize\ttfamily void Game\+::set\+Shipment\+Delay (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for Shipment Delay of the game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Shipment Delay of the game \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_a5b75bc16fa3a510ef8e2e43a6e2294d2}\label{class_game_a5b75bc16fa3a510ef8e2e43a6e2294d2}} 
+\index{Game@{Game}!setStartingInventory@{setStartingInventory}}
+\index{setStartingInventory@{setStartingInventory}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setStartingInventory()}{setStartingInventory()}}
+{\footnotesize\ttfamily void Game\+::set\+Starting\+Inventory (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for Starting Inventory. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Starting Inventory \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_ab4e0f6a606c804dd9d39a667ed356ee1}\label{class_game_ab4e0f6a606c804dd9d39a667ed356ee1}} 
+\index{Game@{Game}!setWeeksToBePlayed@{setWeeksToBePlayed}}
+\index{setWeeksToBePlayed@{setWeeksToBePlayed}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{setWeeksToBePlayed()}{setWeeksToBePlayed()}}
+{\footnotesize\ttfamily void Game\+::set\+Weeks\+To\+Be\+Played (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for Weeks To Be Played. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Weeks To Be Played \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_ac586db141ef21c992a6474300bdea2d0}\label{class_game_ac586db141ef21c992a6474300bdea2d0}} 
+\index{Game@{Game}!updatePlayerInventories@{updatePlayerInventories}}
+\index{updatePlayerInventories@{updatePlayerInventories}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{updatePlayerInventories()}{updatePlayerInventories()}}
+{\footnotesize\ttfamily void Game\+::update\+Player\+Inventories (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Method for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & ~\newline
+ \\
+\hline
+{\em value} & ~\newline
+ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_game_a413dfabbdffaf493bca059932fe09701}\label{class_game_a413dfabbdffaf493bca059932fe09701}} 
+\index{Game@{Game}!backorderCost@{backorderCost}}
+\index{backorderCost@{backorderCost}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{backorderCost}{backorderCost}}
+{\footnotesize\ttfamily double Game\+::backorder\+Cost = 1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s back order cost of beer. 
+
+\mbox{\Hypertarget{class_game_a271387bda026cec90a6bb370ce74278d}\label{class_game_a271387bda026cec90a6bb370ce74278d}} 
+\index{Game@{Game}!currentWeek@{currentWeek}}
+\index{currentWeek@{currentWeek}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{currentWeek}{currentWeek}}
+{\footnotesize\ttfamily int Game\+::current\+Week = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s current progressing week. 
+
+\mbox{\Hypertarget{class_game_aea9436a9a1e01665fc10fed6e8273388}\label{class_game_aea9436a9a1e01665fc10fed6e8273388}} 
+\index{Game@{Game}!demandPerWeek@{demandPerWeek}}
+\index{demandPerWeek@{demandPerWeek}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{demandPerWeek}{demandPerWeek}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ Game\+::demand\+Per\+Week\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s demand per week. 
+
+\mbox{\Hypertarget{class_game_af45025cef2a2fb2dcaf3e423a136b4ad}\label{class_game_af45025cef2a2fb2dcaf3e423a136b4ad}} 
+\index{Game@{Game}!gId@{gId}}
+\index{gId@{gId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{gId}{gId}}
+{\footnotesize\ttfamily unsigned int Game\+::g\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game id. 
+
+\mbox{\Hypertarget{class_game_a6cb7c7d62127e8378a0dda6793916efd}\label{class_game_a6cb7c7d62127e8378a0dda6793916efd}} 
+\index{Game@{Game}!holdingCost@{holdingCost}}
+\index{holdingCost@{holdingCost}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{holdingCost}{holdingCost}}
+{\footnotesize\ttfamily double Game\+::holding\+Cost = 0.\+5\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s holding cost of beer. 
+
+\mbox{\Hypertarget{class_game_ac8a93c181fc5a54ca38ad59c9bff25a0}\label{class_game_ac8a93c181fc5a54ca38ad59c9bff25a0}} 
+\index{Game@{Game}!infoCode@{infoCode}}
+\index{infoCode@{infoCode}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{infoCode}{infoCode}}
+{\footnotesize\ttfamily int Game\+::info\+Code = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s info code. 
+
+\mbox{\Hypertarget{class_game_a020ab63eaf21035db371d93f83139bc7}\label{class_game_a020ab63eaf21035db371d93f83139bc7}} 
+\index{Game@{Game}!instrId@{instrId}}
+\index{instrId@{instrId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{instrId}{instrId}}
+{\footnotesize\ttfamily unsigned int Game\+::instr\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s intructor\textquotesingle{}s id. 
+
+\mbox{\Hypertarget{class_game_afc75f56db8dd8f3ffe78d670eeea536d}\label{class_game_afc75f56db8dd8f3ffe78d670eeea536d}} 
+\index{Game@{Game}!orderDelay@{orderDelay}}
+\index{orderDelay@{orderDelay}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{orderDelay}{orderDelay}}
+{\footnotesize\ttfamily int Game\+::order\+Delay\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s order delay. 
+
+\mbox{\Hypertarget{class_game_ad39ce6e3318558cf9c5bc5cb76c7815e}\label{class_game_ad39ce6e3318558cf9c5bc5cb76c7815e}} 
+\index{Game@{Game}!ordersToBeExecuted@{ordersToBeExecuted}}
+\index{ordersToBeExecuted@{ordersToBeExecuted}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{ordersToBeExecuted}{ordersToBeExecuted}}
+{\footnotesize\ttfamily std\+::map$<$int, std\+::vector$<$int$>$ $>$ Game\+::orders\+To\+Be\+Executed\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s retailer player. 
+
+\mbox{\Hypertarget{class_game_a337c34aba5afe4984d5a76e2dfb8800e}\label{class_game_a337c34aba5afe4984d5a76e2dfb8800e}} 
+\index{Game@{Game}!orderTimeDelay@{orderTimeDelay}}
+\index{orderTimeDelay@{orderTimeDelay}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{orderTimeDelay}{orderTimeDelay}}
+{\footnotesize\ttfamily int Game\+::order\+Time\+Delay =2\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s time delay after order. 
+
+\mbox{\Hypertarget{class_game_ab3c5f93e7f133bc8e840a4e0ef6b2b8c}\label{class_game_ab3c5f93e7f133bc8e840a4e0ef6b2b8c}} 
+\index{Game@{Game}!pDistributorId@{pDistributorId}}
+\index{pDistributorId@{pDistributorId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{pDistributorId}{pDistributorId}}
+{\footnotesize\ttfamily unsigned int Game\+::p\+Distributor\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s distributor player id. 
+
+\mbox{\Hypertarget{class_game_a69dd96698aec85e2f3dab45efc3fdd1f}\label{class_game_a69dd96698aec85e2f3dab45efc3fdd1f}} 
+\index{Game@{Game}!pFactId@{pFactId}}
+\index{pFactId@{pFactId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{pFactId}{pFactId}}
+{\footnotesize\ttfamily unsigned int Game\+::p\+Fact\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s factory player id. 
+
+\mbox{\Hypertarget{class_game_a31a8c3ae4c5ef70cede56d99a3f6352c}\label{class_game_a31a8c3ae4c5ef70cede56d99a3f6352c}} 
+\index{Game@{Game}!pRetailerId@{pRetailerId}}
+\index{pRetailerId@{pRetailerId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{pRetailerId}{pRetailerId}}
+{\footnotesize\ttfamily unsigned int Game\+::p\+Retailer\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s retailer player id. 
+
+\mbox{\Hypertarget{class_game_a492a506043842fa0ea47c79128d839e7}\label{class_game_a492a506043842fa0ea47c79128d839e7}} 
+\index{Game@{Game}!pWholesalerId@{pWholesalerId}}
+\index{pWholesalerId@{pWholesalerId}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{pWholesalerId}{pWholesalerId}}
+{\footnotesize\ttfamily unsigned int Game\+::p\+Wholesaler\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s wholesaler player id. 
+
+\mbox{\Hypertarget{class_game_ae7c8b91149db62d25ea552d71b053bde}\label{class_game_ae7c8b91149db62d25ea552d71b053bde}} 
+\index{Game@{Game}!shipmentDelay@{shipmentDelay}}
+\index{shipmentDelay@{shipmentDelay}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{shipmentDelay}{shipmentDelay}}
+{\footnotesize\ttfamily int Game\+::shipment\+Delay\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s shipment delay. 
+
+\mbox{\Hypertarget{class_game_a849887a8ac89f58beee80a0260f18475}\label{class_game_a849887a8ac89f58beee80a0260f18475}} 
+\index{Game@{Game}!startingInventory@{startingInventory}}
+\index{startingInventory@{startingInventory}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{startingInventory}{startingInventory}}
+{\footnotesize\ttfamily int Game\+::starting\+Inventory = 12\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s initial starting inventory. 
+
+\mbox{\Hypertarget{class_game_ab577818246babc5bbd94059d33553c70}\label{class_game_ab577818246babc5bbd94059d33553c70}} 
+\index{Game@{Game}!weeksToBePlayed@{weeksToBePlayed}}
+\index{weeksToBePlayed@{weeksToBePlayed}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{weeksToBePlayed}{weeksToBePlayed}}
+{\footnotesize\ttfamily int Game\+::weeks\+To\+Be\+Played = 26\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The game\textquotesingle{}s total weeks to be played. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/diggy/sprint-\/1/src/\mbox{\hyperlink{game_8h}{game.\+h}}\item 
+/home/diggy/sprint-\/1/src/\mbox{\hyperlink{game_8cpp}{game.\+cpp}}\end{DoxyCompactItemize}

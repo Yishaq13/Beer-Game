@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/build/test/beergame-test_autogen/mocs_compilation.cpp
+
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/factory.cpp
+factory.h
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/factory.h
+
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/factory.h
+player.h
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/player.h
+
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/game.cpp
+game.h
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/game.h
+
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/game.h
+string
+-
+map
+-
+vector
+-
+order.h
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/order.h
+player.h
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/player.h
+
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/instructor.cpp
+instructor.h
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/instructor.h
+
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/instructor.h
+string
+-
+
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/order.cpp
+order.h
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/order.h
+
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/order.h
+
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/player.cpp
+player.h
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/player.h
+
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/player.h
+string
+-
+
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/test/tests.cpp
+gtest/gtest.h
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/test/gtest/gtest.h
+../src/factory.h
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/factory.h
+../src/player.h
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/player.h
+../src/game.h
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/game.h
+../src/instructor.h
+/home/yousaf/Documents/Software Engineering/se-03-team-27-master/src/instructor.h
+

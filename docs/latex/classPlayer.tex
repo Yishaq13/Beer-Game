@@ -1,0 +1,586 @@
+\hypertarget{classPlayer}{}\section{Player Class Reference}
+\label{classPlayer}\index{Player@{Player}}
+
+
+The \hyperlink{classPlayer}{Player} class.  
+
+
+
+
+{\ttfamily \#include $<$player.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classOrder}{Order} \hyperlink{classPlayer_a698698a4fc4ae46e2ee5085e1b132ee0}{place\+Order} (int number\+Of\+Beers)
+\begin{DoxyCompactList}\small\item\em Method for placing order of beers. \end{DoxyCompactList}\item 
+\hyperlink{classShipment}{Shipment} \hyperlink{classPlayer_abab9379aa93644769bbd93767f9eebdc}{place\+Shipment} (int number\+Of\+Beers)
+\begin{DoxyCompactList}\small\item\em Method for shipment of beers placed. \end{DoxyCompactList}\item 
+int \hyperlink{classPlayer_ae2197d1061a24fa444129b5ea85996d5}{decrease\+Inventory} (int number\+Of\+Beers)
+\begin{DoxyCompactList}\small\item\em Method for decreasing inventory. \end{DoxyCompactList}\item 
+int \hyperlink{classPlayer_af67e6ee0de38f3e9635d35849f103449}{increase\+Inventory} (int number\+Of\+Beers)
+\begin{DoxyCompactList}\small\item\em Method for Increasing Inventory. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_ae1a59b99f054470c0e2fde589a29a559}{receive\+Shipment} (int number\+Of\+Beers)
+\begin{DoxyCompactList}\small\item\em Method for Receiving shipment. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_af0df6a78d154f85b72869044a91adcf3}{receive\+Order} (int number\+Of\+Beers)
+\begin{DoxyCompactList}\small\item\em Method for Reseiving order. \end{DoxyCompactList}\item 
+int \hyperlink{classPlayer_a5e1a112bbb49e2896aa71aa8ffa02e90}{get\+Available\+Shipment} (unsigned int demand)
+\begin{DoxyCompactList}\small\item\em Getter Method for Amount avalible shipment of beers. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classPlayer_aec4626d021f2729c52306e7d303ddcff}{get\+P\+Id} () const
+\begin{DoxyCompactList}\small\item\em Implementation of getters and setter for this class. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_a016beea94a91d74bc04d29088228316b}{set\+P\+Id} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for The player id. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classPlayer_af78ce362224fb94149c6cf84dd34f9ea}{get\+Role} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for The player role. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_a008b3feee7ca705d7637cc3fbe5d7c58}{set\+Role} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for The player role. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classPlayer_ade2a771c2e4a42560dae2acf2041ba8b}{get\+Demand} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for Amount of beers in demand. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_ad8d2808aaf6a627451a1d82f26d45812}{set\+Demand} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for Amount of beers in demand. \end{DoxyCompactList}\item 
+bool \hyperlink{classPlayer_a266523063d6642e14894dec606f31e45}{get\+Order\+Placed} () const
+\begin{DoxyCompactList}\small\item\em Getter Method to check if orderd placed or not. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_a1afe9b0b034e8c8544fc745abcf47448}{set\+Order\+Placed} (bool value)
+\begin{DoxyCompactList}\small\item\em Setter Method for Amount of beers ordered. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classPlayer_ac0da2a656e267a7f06be30c9e99d26e6}{get\+Inventory} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for Amount of beers in inventory. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_a26403ca486d7a34a5a27397eee42d531}{set\+Inventory} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for Amount of beers in inventory. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classPlayer_a538ba7ec623afd550c37783c10957c3d}{get\+Backorder} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for Amount of beers in back order. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_a131897406c5504012015860b5de606f0}{set\+Backorder} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for Amount of beers in back order. \end{DoxyCompactList}\item 
+double \hyperlink{classPlayer_a38cf576aa5a4020ed2fafe1aa9046fdd}{get\+Cost} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for Beer cost. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_a2fd1430d641ef17c52b0aae31e7e26bf}{set\+Cost} (double value)
+\begin{DoxyCompactList}\small\item\em Setter Method for Beer cost. \end{DoxyCompactList}\item 
+double \hyperlink{classPlayer_a0c5cd74a628ad6fb79ebb790dd1a956b}{get\+Total\+Cost} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for Total Beer cost. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_ab79475527bb480b01d004106580158b5}{set\+Total\+Cost} (double value)
+\begin{DoxyCompactList}\small\item\em Setter Method for Total Beer cost. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classPlayer_afd54f2f323e1430efda2acd30163e7ff}{get\+Outgoing\+Shipment} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for Amount of beers in outgoing shipment. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_aeed18c6e38773f2c8035b8604b38df29}{set\+Outgoing\+Shipment} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for Amount of beers in outgoingshipment. \end{DoxyCompactList}\item 
+bool \hyperlink{classPlayer_a5be8afcdfb75792e300d9c255d058a05}{is\+Order\+Received} () const
+\begin{DoxyCompactList}\small\item\em Getter Method to check if order received or not. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_abb73217aac5315b6d78c58feb25a88df}{set\+Order\+Received} (bool value)
+\begin{DoxyCompactList}\small\item\em Setter Method to set order received to True or False. \end{DoxyCompactList}\item 
+bool \hyperlink{classPlayer_ad3834057ec43f27a631d24f276586265}{is\+Shipment\+Received} () const
+\begin{DoxyCompactList}\small\item\em Getter Method to check if shipment received or not. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_a6b24d6f3b7d11df39c621a2dfb4d19e4}{set\+Shipment\+Received} (bool value)
+\begin{DoxyCompactList}\small\item\em Setter Method for Amount of shipment of beers received. \end{DoxyCompactList}\item 
+bool \hyperlink{classPlayer_a90c450a83447d63a40c22eca44624121}{get\+Shipment\+Placed} () const
+\begin{DoxyCompactList}\small\item\em Getter Method to check if shipment placed or not. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_ae6ff3d0d308302f5fc64071991e3cdda}{set\+Shipment\+Placed} (bool value)
+\begin{DoxyCompactList}\small\item\em Setter Method to set shipment places to True or False. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classPlayer}{Player} class. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classPlayer_ae2197d1061a24fa444129b5ea85996d5}\label{classPlayer_ae2197d1061a24fa444129b5ea85996d5}} 
+\index{Player@{Player}!decrease\+Inventory@{decrease\+Inventory}}
+\index{decrease\+Inventory@{decrease\+Inventory}!Player@{Player}}
+\subsubsection{\texorpdfstring{decrease\+Inventory()}{decreaseInventory()}}
+{\footnotesize\ttfamily int Player\+::decrease\+Inventory (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Beers }\end{DoxyParamCaption})}
+
+
+
+Method for decreasing inventory. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Amount} & of beers removed from inventory \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Amount of beers in inventory 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a5e1a112bbb49e2896aa71aa8ffa02e90}\label{classPlayer_a5e1a112bbb49e2896aa71aa8ffa02e90}} 
+\index{Player@{Player}!get\+Available\+Shipment@{get\+Available\+Shipment}}
+\index{get\+Available\+Shipment@{get\+Available\+Shipment}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Available\+Shipment()}{getAvailableShipment()}}
+{\footnotesize\ttfamily int Player\+::get\+Available\+Shipment (\begin{DoxyParamCaption}\item[{unsigned int}]{demand }\end{DoxyParamCaption})}
+
+
+
+Getter Method for Amount avalible shipment of beers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Amount} & of beers demanded for shipment \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Amount of beers avalible for shipment 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a538ba7ec623afd550c37783c10957c3d}\label{classPlayer_a538ba7ec623afd550c37783c10957c3d}} 
+\index{Player@{Player}!get\+Backorder@{get\+Backorder}}
+\index{get\+Backorder@{get\+Backorder}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Backorder()}{getBackorder()}}
+{\footnotesize\ttfamily unsigned int Player\+::get\+Backorder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for Amount of beers in back order. 
+
+\begin{DoxyReturn}{Returns}
+Amount of beers in back order 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a38cf576aa5a4020ed2fafe1aa9046fdd}\label{classPlayer_a38cf576aa5a4020ed2fafe1aa9046fdd}} 
+\index{Player@{Player}!get\+Cost@{get\+Cost}}
+\index{get\+Cost@{get\+Cost}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Cost()}{getCost()}}
+{\footnotesize\ttfamily double Player\+::get\+Cost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for Beer cost. 
+
+\begin{DoxyReturn}{Returns}
+Beer cost 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_ade2a771c2e4a42560dae2acf2041ba8b}\label{classPlayer_ade2a771c2e4a42560dae2acf2041ba8b}} 
+\index{Player@{Player}!get\+Demand@{get\+Demand}}
+\index{get\+Demand@{get\+Demand}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Demand()}{getDemand()}}
+{\footnotesize\ttfamily unsigned int Player\+::get\+Demand (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for Amount of beers in demand. 
+
+\begin{DoxyReturn}{Returns}
+Amount of beers in demand 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_ac0da2a656e267a7f06be30c9e99d26e6}\label{classPlayer_ac0da2a656e267a7f06be30c9e99d26e6}} 
+\index{Player@{Player}!get\+Inventory@{get\+Inventory}}
+\index{get\+Inventory@{get\+Inventory}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Inventory()}{getInventory()}}
+{\footnotesize\ttfamily unsigned int Player\+::get\+Inventory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for Amount of beers in inventory. 
+
+\begin{DoxyReturn}{Returns}
+Amount of beers in inventory 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a266523063d6642e14894dec606f31e45}\label{classPlayer_a266523063d6642e14894dec606f31e45}} 
+\index{Player@{Player}!get\+Order\+Placed@{get\+Order\+Placed}}
+\index{get\+Order\+Placed@{get\+Order\+Placed}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Order\+Placed()}{getOrderPlaced()}}
+{\footnotesize\ttfamily bool Player\+::get\+Order\+Placed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method to check if orderd placed or not. 
+
+\begin{DoxyReturn}{Returns}
+True or False 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_afd54f2f323e1430efda2acd30163e7ff}\label{classPlayer_afd54f2f323e1430efda2acd30163e7ff}} 
+\index{Player@{Player}!get\+Outgoing\+Shipment@{get\+Outgoing\+Shipment}}
+\index{get\+Outgoing\+Shipment@{get\+Outgoing\+Shipment}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Outgoing\+Shipment()}{getOutgoingShipment()}}
+{\footnotesize\ttfamily unsigned int Player\+::get\+Outgoing\+Shipment (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for Amount of beers in outgoing shipment. 
+
+\begin{DoxyReturn}{Returns}
+Amount of beers in outgoing shipment 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_aec4626d021f2729c52306e7d303ddcff}\label{classPlayer_aec4626d021f2729c52306e7d303ddcff}} 
+\index{Player@{Player}!get\+P\+Id@{get\+P\+Id}}
+\index{get\+P\+Id@{get\+P\+Id}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+P\+Id()}{getPId()}}
+{\footnotesize\ttfamily unsigned int Player\+::get\+P\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Implementation of getters and setter for this class. 
+
+Getter Method for The player id \begin{DoxyReturn}{Returns}
+The player id 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_af78ce362224fb94149c6cf84dd34f9ea}\label{classPlayer_af78ce362224fb94149c6cf84dd34f9ea}} 
+\index{Player@{Player}!get\+Role@{get\+Role}}
+\index{get\+Role@{get\+Role}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Role()}{getRole()}}
+{\footnotesize\ttfamily unsigned int Player\+::get\+Role (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for The player role. 
+
+\begin{DoxyReturn}{Returns}
+The player role 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a90c450a83447d63a40c22eca44624121}\label{classPlayer_a90c450a83447d63a40c22eca44624121}} 
+\index{Player@{Player}!get\+Shipment\+Placed@{get\+Shipment\+Placed}}
+\index{get\+Shipment\+Placed@{get\+Shipment\+Placed}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Shipment\+Placed()}{getShipmentPlaced()}}
+{\footnotesize\ttfamily bool Player\+::get\+Shipment\+Placed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method to check if shipment placed or not. 
+
+\begin{DoxyReturn}{Returns}
+True or False 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a0c5cd74a628ad6fb79ebb790dd1a956b}\label{classPlayer_a0c5cd74a628ad6fb79ebb790dd1a956b}} 
+\index{Player@{Player}!get\+Total\+Cost@{get\+Total\+Cost}}
+\index{get\+Total\+Cost@{get\+Total\+Cost}!Player@{Player}}
+\subsubsection{\texorpdfstring{get\+Total\+Cost()}{getTotalCost()}}
+{\footnotesize\ttfamily double Player\+::get\+Total\+Cost (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for Total Beer cost. 
+
+\begin{DoxyReturn}{Returns}
+Total Beer cost 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_af67e6ee0de38f3e9635d35849f103449}\label{classPlayer_af67e6ee0de38f3e9635d35849f103449}} 
+\index{Player@{Player}!increase\+Inventory@{increase\+Inventory}}
+\index{increase\+Inventory@{increase\+Inventory}!Player@{Player}}
+\subsubsection{\texorpdfstring{increase\+Inventory()}{increaseInventory()}}
+{\footnotesize\ttfamily int Player\+::increase\+Inventory (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Beers }\end{DoxyParamCaption})}
+
+
+
+Method for Increasing Inventory. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Amount} & of beers added to inventory \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Amount of beers in inventory 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a5be8afcdfb75792e300d9c255d058a05}\label{classPlayer_a5be8afcdfb75792e300d9c255d058a05}} 
+\index{Player@{Player}!is\+Order\+Received@{is\+Order\+Received}}
+\index{is\+Order\+Received@{is\+Order\+Received}!Player@{Player}}
+\subsubsection{\texorpdfstring{is\+Order\+Received()}{isOrderReceived()}}
+{\footnotesize\ttfamily bool Player\+::is\+Order\+Received (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method to check if order received or not. 
+
+\begin{DoxyReturn}{Returns}
+True or False 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_ad3834057ec43f27a631d24f276586265}\label{classPlayer_ad3834057ec43f27a631d24f276586265}} 
+\index{Player@{Player}!is\+Shipment\+Received@{is\+Shipment\+Received}}
+\index{is\+Shipment\+Received@{is\+Shipment\+Received}!Player@{Player}}
+\subsubsection{\texorpdfstring{is\+Shipment\+Received()}{isShipmentReceived()}}
+{\footnotesize\ttfamily bool Player\+::is\+Shipment\+Received (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method to check if shipment received or not. 
+
+\begin{DoxyReturn}{Returns}
+Trur or False 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a698698a4fc4ae46e2ee5085e1b132ee0}\label{classPlayer_a698698a4fc4ae46e2ee5085e1b132ee0}} 
+\index{Player@{Player}!place\+Order@{place\+Order}}
+\index{place\+Order@{place\+Order}!Player@{Player}}
+\subsubsection{\texorpdfstring{place\+Order()}{placeOrder()}}
+{\footnotesize\ttfamily \hyperlink{classOrder}{Order} Player\+::place\+Order (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Beers }\end{DoxyParamCaption})}
+
+
+
+Method for placing order of beers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Amount} & of beers orderd \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classOrder}{Order} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_abab9379aa93644769bbd93767f9eebdc}\label{classPlayer_abab9379aa93644769bbd93767f9eebdc}} 
+\index{Player@{Player}!place\+Shipment@{place\+Shipment}}
+\index{place\+Shipment@{place\+Shipment}!Player@{Player}}
+\subsubsection{\texorpdfstring{place\+Shipment()}{placeShipment()}}
+{\footnotesize\ttfamily \hyperlink{classShipment}{Shipment} Player\+::place\+Shipment (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Beers }\end{DoxyParamCaption})}
+
+
+
+Method for shipment of beers placed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Amount} & of beers avaliblr for shipment \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_af0df6a78d154f85b72869044a91adcf3}\label{classPlayer_af0df6a78d154f85b72869044a91adcf3}} 
+\index{Player@{Player}!receive\+Order@{receive\+Order}}
+\index{receive\+Order@{receive\+Order}!Player@{Player}}
+\subsubsection{\texorpdfstring{receive\+Order()}{receiveOrder()}}
+{\footnotesize\ttfamily void Player\+::receive\+Order (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Beers }\end{DoxyParamCaption})}
+
+
+
+Method for Reseiving order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Amount} & of beers received \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_ae1a59b99f054470c0e2fde589a29a559}\label{classPlayer_ae1a59b99f054470c0e2fde589a29a559}} 
+\index{Player@{Player}!receive\+Shipment@{receive\+Shipment}}
+\index{receive\+Shipment@{receive\+Shipment}!Player@{Player}}
+\subsubsection{\texorpdfstring{receive\+Shipment()}{receiveShipment()}}
+{\footnotesize\ttfamily void Player\+::receive\+Shipment (\begin{DoxyParamCaption}\item[{int}]{number\+Of\+Beers }\end{DoxyParamCaption})}
+
+
+
+Method for Receiving shipment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Amount} & of beers received by shipment \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a131897406c5504012015860b5de606f0}\label{classPlayer_a131897406c5504012015860b5de606f0}} 
+\index{Player@{Player}!set\+Backorder@{set\+Backorder}}
+\index{set\+Backorder@{set\+Backorder}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Backorder()}{setBackorder()}}
+{\footnotesize\ttfamily void Player\+::set\+Backorder (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for Amount of beers in back order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Amount of beers in back order \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a2fd1430d641ef17c52b0aae31e7e26bf}\label{classPlayer_a2fd1430d641ef17c52b0aae31e7e26bf}} 
+\index{Player@{Player}!set\+Cost@{set\+Cost}}
+\index{set\+Cost@{set\+Cost}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Cost()}{setCost()}}
+{\footnotesize\ttfamily void Player\+::set\+Cost (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for Beer cost. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Beer cost \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_ad8d2808aaf6a627451a1d82f26d45812}\label{classPlayer_ad8d2808aaf6a627451a1d82f26d45812}} 
+\index{Player@{Player}!set\+Demand@{set\+Demand}}
+\index{set\+Demand@{set\+Demand}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Demand()}{setDemand()}}
+{\footnotesize\ttfamily void Player\+::set\+Demand (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for Amount of beers in demand. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Amount of beers in demand \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a26403ca486d7a34a5a27397eee42d531}\label{classPlayer_a26403ca486d7a34a5a27397eee42d531}} 
+\index{Player@{Player}!set\+Inventory@{set\+Inventory}}
+\index{set\+Inventory@{set\+Inventory}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Inventory()}{setInventory()}}
+{\footnotesize\ttfamily void Player\+::set\+Inventory (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for Amount of beers in inventory. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Amount of beers in inventory \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a1afe9b0b034e8c8544fc745abcf47448}\label{classPlayer_a1afe9b0b034e8c8544fc745abcf47448}} 
+\index{Player@{Player}!set\+Order\+Placed@{set\+Order\+Placed}}
+\index{set\+Order\+Placed@{set\+Order\+Placed}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Order\+Placed()}{setOrderPlaced()}}
+{\footnotesize\ttfamily void Player\+::set\+Order\+Placed (\begin{DoxyParamCaption}\item[{bool}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for Amount of beers ordered. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Amount of beers ordered \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_abb73217aac5315b6d78c58feb25a88df}\label{classPlayer_abb73217aac5315b6d78c58feb25a88df}} 
+\index{Player@{Player}!set\+Order\+Received@{set\+Order\+Received}}
+\index{set\+Order\+Received@{set\+Order\+Received}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Order\+Received()}{setOrderReceived()}}
+{\footnotesize\ttfamily void Player\+::set\+Order\+Received (\begin{DoxyParamCaption}\item[{bool}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method to set order received to True or False. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em True} & or False \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_aeed18c6e38773f2c8035b8604b38df29}\label{classPlayer_aeed18c6e38773f2c8035b8604b38df29}} 
+\index{Player@{Player}!set\+Outgoing\+Shipment@{set\+Outgoing\+Shipment}}
+\index{set\+Outgoing\+Shipment@{set\+Outgoing\+Shipment}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Outgoing\+Shipment()}{setOutgoingShipment()}}
+{\footnotesize\ttfamily void Player\+::set\+Outgoing\+Shipment (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for Amount of beers in outgoingshipment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Amount of beers in outgoing shipment \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a016beea94a91d74bc04d29088228316b}\label{classPlayer_a016beea94a91d74bc04d29088228316b}} 
+\index{Player@{Player}!set\+P\+Id@{set\+P\+Id}}
+\index{set\+P\+Id@{set\+P\+Id}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+P\+Id()}{setPId()}}
+{\footnotesize\ttfamily void Player\+::set\+P\+Id (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for The player id. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The player id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a008b3feee7ca705d7637cc3fbe5d7c58}\label{classPlayer_a008b3feee7ca705d7637cc3fbe5d7c58}} 
+\index{Player@{Player}!set\+Role@{set\+Role}}
+\index{set\+Role@{set\+Role}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Role()}{setRole()}}
+{\footnotesize\ttfamily void Player\+::set\+Role (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for The player role. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The player role \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_ae6ff3d0d308302f5fc64071991e3cdda}\label{classPlayer_ae6ff3d0d308302f5fc64071991e3cdda}} 
+\index{Player@{Player}!set\+Shipment\+Placed@{set\+Shipment\+Placed}}
+\index{set\+Shipment\+Placed@{set\+Shipment\+Placed}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Shipment\+Placed()}{setShipmentPlaced()}}
+{\footnotesize\ttfamily void Player\+::set\+Shipment\+Placed (\begin{DoxyParamCaption}\item[{bool}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method to set shipment places to True or False. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em True} & or False \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_a6b24d6f3b7d11df39c621a2dfb4d19e4}\label{classPlayer_a6b24d6f3b7d11df39c621a2dfb4d19e4}} 
+\index{Player@{Player}!set\+Shipment\+Received@{set\+Shipment\+Received}}
+\index{set\+Shipment\+Received@{set\+Shipment\+Received}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Shipment\+Received()}{setShipmentReceived()}}
+{\footnotesize\ttfamily void Player\+::set\+Shipment\+Received (\begin{DoxyParamCaption}\item[{bool}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for Amount of shipment of beers received. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em True} & or False \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPlayer_ab79475527bb480b01d004106580158b5}\label{classPlayer_ab79475527bb480b01d004106580158b5}} 
+\index{Player@{Player}!set\+Total\+Cost@{set\+Total\+Cost}}
+\index{set\+Total\+Cost@{set\+Total\+Cost}!Player@{Player}}
+\subsubsection{\texorpdfstring{set\+Total\+Cost()}{setTotalCost()}}
+{\footnotesize\ttfamily void Player\+::set\+Total\+Cost (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for Total Beer cost. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Total Beer cost \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\hyperlink{player_8h}{player.\+h}\item 
+src/player.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+1ca137e6762da45521b212ba39698e14 doc/CMakeFiles/doc
+97fbd216fe5a94bc6e94b4bebfbb8016 src/CMakeFiles/beergame_autogen
+6702d58812eace5de33f19f135cb0b77 src/qrc_resource.cpp
+16f3477344731b6ea471c056c4f56347 test/CMakeFiles/beergame-test_autogen

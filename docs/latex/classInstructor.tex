@@ -1,0 +1,216 @@
+\hypertarget{classInstructor}{}\section{Instructor Class Reference}
+\label{classInstructor}\index{Instructor@{Instructor}}
+
+
+The \hyperlink{classInstructor}{Instructor} class.  
+
+
+
+
+{\ttfamily \#include $<$instructor.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{classInstructor_a4dcf1f8643b542dd53208f02ca5a16a8}{get\+Instr\+Id} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for instructor id. \end{DoxyCompactList}\item 
+void \hyperlink{classInstructor_a836c0cb8195550308e7dcc04c7b767a2}{set\+Instr\+Id} (unsigned int value)
+\begin{DoxyCompactList}\small\item\em Setter Method for instructor id. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classInstructor_a3f0a855ee446bd6db6b5a0e2133da3ac}{get\+Instr\+Email} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for the instructor email. \end{DoxyCompactList}\item 
+void \hyperlink{classInstructor_a7983774764662f501ecda887e97038f3}{set\+Instr\+Email} (const std\+::string \&value)
+\begin{DoxyCompactList}\small\item\em Setter Method for instructor email. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{classInstructor_a72e6160b964d0abdc3867a6eab817993}{get\+Instr\+Password} () const
+\begin{DoxyCompactList}\small\item\em Getter Method for instructor password. \end{DoxyCompactList}\item 
+void \hyperlink{classInstructor_a3df5460820d53f016f7e92a37ca70de9}{set\+Instr\+Password} (const std\+::string \&value)
+\begin{DoxyCompactList}\small\item\em Setter Method for instructor password. \end{DoxyCompactList}\item 
+void \hyperlink{classInstructor_a94f9564009326b43a3029fd3419e467b}{show\+Games\+Status} ()
+\begin{DoxyCompactList}\small\item\em Method for showing status of game. \end{DoxyCompactList}\item 
+int \hyperlink{classInstructor_a9fca4b1272f062d14ffb5bb89b10b6f8}{create\+Game} ()
+\begin{DoxyCompactList}\small\item\em Method for creating game. \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \hyperlink{classInstructor_afe6b1a0378d5324e9fb2c2d253cf964a}{create\+Games} (int num\+Of\+Games)
+\begin{DoxyCompactList}\small\item\em Method for Creating games. \end{DoxyCompactList}\item 
+std\+::vector$<$ \hyperlink{classGame}{Game} $>$ \hyperlink{classInstructor_ad3d7b1236562817ef13339bebed4e2d6}{get\+Games} ()
+\begin{DoxyCompactList}\small\item\em Getter Method for games. \end{DoxyCompactList}\item 
+void \hyperlink{classInstructor_a282cf5e300e5f642935d389b94f93b13}{set\+Games} (const std\+::vector$<$ \hyperlink{classGame}{Game} $>$ \&value)
+\begin{DoxyCompactList}\small\item\em Setter Method for games. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classInstructor}{Instructor} class. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classInstructor_a9fca4b1272f062d14ffb5bb89b10b6f8}\label{classInstructor_a9fca4b1272f062d14ffb5bb89b10b6f8}} 
+\index{Instructor@{Instructor}!create\+Game@{create\+Game}}
+\index{create\+Game@{create\+Game}!Instructor@{Instructor}}
+\subsubsection{\texorpdfstring{create\+Game()}{createGame()}}
+{\footnotesize\ttfamily int Instructor\+::create\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Method for creating game. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInstructor_afe6b1a0378d5324e9fb2c2d253cf964a}\label{classInstructor_afe6b1a0378d5324e9fb2c2d253cf964a}} 
+\index{Instructor@{Instructor}!create\+Games@{create\+Games}}
+\index{create\+Games@{create\+Games}!Instructor@{Instructor}}
+\subsubsection{\texorpdfstring{create\+Games()}{createGames()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ Instructor\+::create\+Games (\begin{DoxyParamCaption}\item[{int}]{num\+Of\+Games }\end{DoxyParamCaption})}
+
+
+
+Method for Creating games. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The number of games \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector of games ids 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInstructor_ad3d7b1236562817ef13339bebed4e2d6}\label{classInstructor_ad3d7b1236562817ef13339bebed4e2d6}} 
+\index{Instructor@{Instructor}!get\+Games@{get\+Games}}
+\index{get\+Games@{get\+Games}!Instructor@{Instructor}}
+\subsubsection{\texorpdfstring{get\+Games()}{getGames()}}
+{\footnotesize\ttfamily std\+::vector$<$ \hyperlink{classGame}{Game} $>$ Instructor\+::get\+Games (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter Method for games. 
+
+\begin{DoxyReturn}{Returns}
+vector of games 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInstructor_a3f0a855ee446bd6db6b5a0e2133da3ac}\label{classInstructor_a3f0a855ee446bd6db6b5a0e2133da3ac}} 
+\index{Instructor@{Instructor}!get\+Instr\+Email@{get\+Instr\+Email}}
+\index{get\+Instr\+Email@{get\+Instr\+Email}!Instructor@{Instructor}}
+\subsubsection{\texorpdfstring{get\+Instr\+Email()}{getInstrEmail()}}
+{\footnotesize\ttfamily std\+::string Instructor\+::get\+Instr\+Email (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for the instructor email. 
+
+\begin{DoxyReturn}{Returns}
+The instructor email 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInstructor_a4dcf1f8643b542dd53208f02ca5a16a8}\label{classInstructor_a4dcf1f8643b542dd53208f02ca5a16a8}} 
+\index{Instructor@{Instructor}!get\+Instr\+Id@{get\+Instr\+Id}}
+\index{get\+Instr\+Id@{get\+Instr\+Id}!Instructor@{Instructor}}
+\subsubsection{\texorpdfstring{get\+Instr\+Id()}{getInstrId()}}
+{\footnotesize\ttfamily unsigned int Instructor\+::get\+Instr\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for instructor id. 
+
+\begin{DoxyReturn}{Returns}
+The instructor id 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInstructor_a72e6160b964d0abdc3867a6eab817993}\label{classInstructor_a72e6160b964d0abdc3867a6eab817993}} 
+\index{Instructor@{Instructor}!get\+Instr\+Password@{get\+Instr\+Password}}
+\index{get\+Instr\+Password@{get\+Instr\+Password}!Instructor@{Instructor}}
+\subsubsection{\texorpdfstring{get\+Instr\+Password()}{getInstrPassword()}}
+{\footnotesize\ttfamily std\+::string Instructor\+::get\+Instr\+Password (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Getter Method for instructor password. 
+
+\begin{DoxyReturn}{Returns}
+The instructor password 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInstructor_a282cf5e300e5f642935d389b94f93b13}\label{classInstructor_a282cf5e300e5f642935d389b94f93b13}} 
+\index{Instructor@{Instructor}!set\+Games@{set\+Games}}
+\index{set\+Games@{set\+Games}!Instructor@{Instructor}}
+\subsubsection{\texorpdfstring{set\+Games()}{setGames()}}
+{\footnotesize\ttfamily void Instructor\+::set\+Games (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \hyperlink{classGame}{Game} $>$ \&}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for games. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The game object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInstructor_a7983774764662f501ecda887e97038f3}\label{classInstructor_a7983774764662f501ecda887e97038f3}} 
+\index{Instructor@{Instructor}!set\+Instr\+Email@{set\+Instr\+Email}}
+\index{set\+Instr\+Email@{set\+Instr\+Email}!Instructor@{Instructor}}
+\subsubsection{\texorpdfstring{set\+Instr\+Email()}{setInstrEmail()}}
+{\footnotesize\ttfamily void Instructor\+::set\+Instr\+Email (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for instructor email. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The instructor email \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInstructor_a836c0cb8195550308e7dcc04c7b767a2}\label{classInstructor_a836c0cb8195550308e7dcc04c7b767a2}} 
+\index{Instructor@{Instructor}!set\+Instr\+Id@{set\+Instr\+Id}}
+\index{set\+Instr\+Id@{set\+Instr\+Id}!Instructor@{Instructor}}
+\subsubsection{\texorpdfstring{set\+Instr\+Id()}{setInstrId()}}
+{\footnotesize\ttfamily void Instructor\+::set\+Instr\+Id (\begin{DoxyParamCaption}\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for instructor id. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The instructor id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInstructor_a3df5460820d53f016f7e92a37ca70de9}\label{classInstructor_a3df5460820d53f016f7e92a37ca70de9}} 
+\index{Instructor@{Instructor}!set\+Instr\+Password@{set\+Instr\+Password}}
+\index{set\+Instr\+Password@{set\+Instr\+Password}!Instructor@{Instructor}}
+\subsubsection{\texorpdfstring{set\+Instr\+Password()}{setInstrPassword()}}
+{\footnotesize\ttfamily void Instructor\+::set\+Instr\+Password (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{value }\end{DoxyParamCaption})}
+
+
+
+Setter Method for instructor password. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The instructor password \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classInstructor_a94f9564009326b43a3029fd3419e467b}\label{classInstructor_a94f9564009326b43a3029fd3419e467b}} 
+\index{Instructor@{Instructor}!show\+Games\+Status@{show\+Games\+Status}}
+\index{show\+Games\+Status@{show\+Games\+Status}!Instructor@{Instructor}}
+\subsubsection{\texorpdfstring{show\+Games\+Status()}{showGamesStatus()}}
+{\footnotesize\ttfamily void Instructor\+::show\+Games\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Method for showing status of game. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\hyperlink{instructor_8h}{instructor.\+h}\item 
+src/instructor.\+cpp\end{DoxyCompactItemize}
